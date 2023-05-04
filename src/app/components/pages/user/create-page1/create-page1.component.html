@@ -1,0 +1,30 @@
+<p>create-page1 works!</p>
+<div class="contenedor"> 
+    <h1>INF&Oacute;RMACION PERSONAL</h1><br>
+    
+
+
+        <form>
+            <input matInput #full_name><br>
+            <label>NOMBRE COMPLETO </label>
+        </form><br>
+        <form>
+            <input matInput #nickname><br>
+            <label>USUARIO </label>
+        </form><br>
+        <p>
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+        </p><br>
+            
+        
+    
+    
+    <button class="boton_personalizado" (click)="guardarDatos(full_name.value, nickname.value)">
+        Siguiente
+    </button>
+
+    
+    </div>
